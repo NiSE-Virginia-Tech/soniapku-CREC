@@ -36,7 +36,7 @@ else
 fi
 
 echo '|--------------------------------------------------------------------|'
-echo '|         get project commits                                        |'
+echo '|         get all historical commit IDs                              |'
 echo '|--------------------------------------------------------------------|'
 
 commitsPath=$basePath/commits
@@ -52,7 +52,7 @@ $commitsPath/$projectName/run.sh
 date
 
 echo '|--------------------------------------------------------------------|'
-echo '|         generate project versions                                  |'
+echo '|         sample versions                                            |'
 echo '|--------------------------------------------------------------------|'
 
 cd $basePath
